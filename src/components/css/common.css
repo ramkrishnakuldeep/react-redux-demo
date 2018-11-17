@@ -1,0 +1,13 @@
+body{
+  font-family: "Trebuchet MS";
+}
+.d-flex>*{
+  align-self: center;
+}
+label{
+  margin: 0;
+}
+
+em{
+  font-size: 0.85em;
+}

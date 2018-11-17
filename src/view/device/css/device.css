@@ -1,0 +1,10 @@
+
+.device_list > li{
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid rgba(214, 85, 32, 1.0);
+    border-radius: 10px;
+}
+.device_list > li .device_value{
+  padding-left: 10px;
+}

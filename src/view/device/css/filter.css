@@ -1,0 +1,15 @@
+.filter_toolbar{
+  padding: 0 20px 10px;
+}
+.filter_toolbar > label:last-child{
+  border: 1px solid rgba(221, 81, 98, 1.0);
+  padding: 5px 20px;
+  margin-right: 5px;
+  color: rgba(255, 255, 255, 1.0);;
+  font-size: 1.5em;
+  border-radius: 5px;
+  background: rgba(221, 81, 98, 1.0);
+}
+.filter_toolbar > label:first-child, .filter_toolbar > input {
+  margin-left: 5px;
+}
