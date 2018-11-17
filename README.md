@@ -1,16 +1,3 @@
-![relayrlogo](https://relayr.io/en/wp-content/uploads/sites/5/2014/03/relayr_logo_400px-1-1-1.png)
-
-# Relayr Frontend Challenge
-
-## Our Expectations
-
-
-This code challenge is based on the actual work we do here at Relayr. It's designed to see how you design and code a simple app based on real-world requirements.
-
-There's no time limit here, though we'd like to receive your solution within a week if possible. We expect a basic solution to take a couple of hours, but you're welcome to work on it longer if you'd like. 
-
-You're welcome to add some CSS styling, but there's no need to make the app very beautiful. We're mostly interested in how you implement the app's basic functionality.
-
 ## Acceptance Criteria
 
 You are building a React-based frontend interface for displaying data from and interacting with an IoT device. Once you're finished with the basic app, a user should be able to do the following:
