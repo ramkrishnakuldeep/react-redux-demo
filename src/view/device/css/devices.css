@@ -7,5 +7,5 @@ div.device_heading{
 ul.device_list{
   padding: 20px;
   overflow: auto;
-  height: calc(100vh - 136px);
+  height: calc(100vh - 174px);
 }

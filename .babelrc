@@ -1,11 +1,11 @@
 {
   "presets": [
-    "es2015",
-    "es2017",
-    "react"
+    "@babel/preset-env",
+    "@babel/preset-react"
   ],
   "plugins": [
     "react-hot-loader/babel",
-    "transform-object-rest-spread"
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-class-properties"
   ]
 }

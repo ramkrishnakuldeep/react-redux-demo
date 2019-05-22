@@ -1,5 +1,6 @@
 .filter_toolbar{
   padding: 0 20px 10px;
+  margin-top: 65px;
 }
 .filter_toolbar > label:last-child{
   border: 1px solid rgba(221, 81, 98, 1.0);

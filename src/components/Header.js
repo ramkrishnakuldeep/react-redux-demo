@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/header.css'
 
-const Header = (props) => {
+const Header = () => {
   return (
     <nav className="page_header">
       <h1 className="text-center">

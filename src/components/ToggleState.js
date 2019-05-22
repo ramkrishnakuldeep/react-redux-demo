@@ -1,14 +1,13 @@
-import React from 'react';
+import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import './css/toggle.css'
 
-class ToggleState extends React.Component {
-  constructor(props) {
-    super(props);
-    this.activeStatusClicked = this.activeStatusClicked.bind(this);
+class ToggleState extends PureComponent {
+  constructor() {
+    super();
   }
 
-  activeStatusClicked(e) {
+  activeStatusClicked = (e) => {
     this.props.handleChange(e.target.checked)
   }
 
