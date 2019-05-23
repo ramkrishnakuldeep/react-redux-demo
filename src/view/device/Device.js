@@ -10,19 +10,16 @@ import PropTypes from 'prop-types';
 class Device extends React.Component {
   constructor(props) {
     super(props);
-    this.onStatusChanged = this.onStatusChanged.bind(this);
-    this.getFormattedDate = this.getFormattedDate.bind(this);
-    this.getValueFloored = this.getValueFloored.bind(this);
   }
-  onStatusChanged(value) {
+  onStatusChanged = (value) => {
     this.props.dispatch(deviceActions.patchDevice(this.props.name, value));
   }
 
-  getFormattedDate(date) {
+  getFormattedDate = (date) => {
     return moment(date).format('MM/DD/YY HH:mm:ss');
   }
 
-  getValueFloored(value) {
+  getValueFloored = (value) => {
     return parseFloat(value).toFixed(2);
   }
 
